@@ -9,7 +9,7 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 server.use('/api', router)
 server.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://njmwas.github.io') // The URL you put here is for the web application that you have deployed using Github Pages
+    res.header('Access-Control-Allow-Origin', 'https://petermunene.github.io/service-card-phase-1-project/') // The URL you put here is for the web application that you have deployed using Github Pages
     res.header('Access-Control-Allow-Headers', '*')
     next()
 })
