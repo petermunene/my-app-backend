@@ -13,7 +13,7 @@ server.use(middlewares);
 //  Enable CORS properly
 server.use(
   cors({
-    origin: "https://petermunene.github.io/", // Allow your frontend
+    origin: "*", // Allow your frontend
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: ["Content-Type", "Authorization"],
   })
