@@ -8,7 +8,7 @@ server.use(middlewares);
 
 // ✅ Simple CORS Setup - Doesn't Interfere
 server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://petermunene.github.io/service-card-phase-1-project/"); // Allow your frontend
+  res.header("Access-Control-Allow-Origin", "https://petermunene.github.io/"); // Allow your frontend
   res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,PATCH");
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
   next();
