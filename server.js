@@ -10,7 +10,7 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-// ✅ Enable CORS properly
+//  Enable CORS properly
 server.use(
   cors({
     origin: "https://petermunene.github.io/", // Allow your frontend
