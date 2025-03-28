@@ -1,8 +1,4 @@
-
-
-
 const jsonServer = require("json-server");
-const cors = require("cors"); // Import CORS middleware
 
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
@@ -10,19 +6,20 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-//  Enable CORS properly
-server.use(
-  cors({
-    origin: "https://petermunene.github.io/", // Allow your frontend
-    methods: "GET,POST,PUT,DELETE",
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
+// ✅ Simple CORS Setup - Doesn't Interfere
+server.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "https://petermunene.github.io/service-card-phase-1-project/"); // Allow your frontend
+  res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,PATCH");
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  next();
+});
 
-// Prefix API routes with "/api"
+// ✅ Prefix API routes with "/api"
 server.use("/api", router);
 
-server.listen(process.env.PORT || 5000, () => {
-  console.log("JSON Server is running on port 5000");
+// ✅ Start server
+const PORT = process.env.PORT || 5000;
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`);
 });
 
