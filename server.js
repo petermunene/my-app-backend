@@ -1,4 +1,5 @@
 const jsonServer = require("json-server");
+const cors = require("cors");
 
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
@@ -6,20 +7,24 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-// ✅ Simple CORS Setup - Doesn't Interfere
+// ✅ Dynamically allow only requests from your frontend
 server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://petermunene.github.io/"); // Allow your frontend
-  res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,PATCH");
+  res.header("Access-Control-Allow-Origin", req.headers.origin || "*");
+  res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,PATCH,OPTIONS");
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+
+  // Handle preflight requests
+  if (req.method === "OPTIONS") {
+    return res.sendStatus(200);
+  }
   next();
 });
 
-// ✅ Prefix API routes with "/api"
+// Prefix API routes with "/api"
 server.use("/api", router);
 
-// ✅ Start server
-const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  console.log(`JSON Server is running on port ${PORT}`);
+server.listen(process.env.PORT || 5000, () => {
+  console.log("JSON Server is running on port 5000");
 });
+
 
