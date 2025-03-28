@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 server.use('/api', router)
 server.use((req,res,next)=>{
-  res.header('access-control-Allow-Origin','https://petermunene.github.io/service-card-phase-1-project')
+  res.header('access-control-Allow-Origin','https://petermunene.github.io')
   res.header('access-control-Allow-Headers','*')
   res.header('access-control-Allow-Methods','*')
 })
