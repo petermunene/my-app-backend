@@ -13,25 +13,25 @@
             ],
             "name": "Room Cleaning",
             "description": "We offer room cleaning services including making beds, vacuuming, and dusting.",
-            "image": "../images/room-cleaning.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/room-cleaning.jpeg"
           },
           {
             "clients": [],
             "name": "Bathroom Sanitization",
             "description": "Fresh towels, toiletries restocking, and deep cleaning.",
-            "image":"https://your-api.onrender.com/api/images/bathroom-sanitization.jpeg"
+            "image":"https://my-app-backend-hvge.onrender.com/api/images/bathroom-sanitization.jpeg"
           },
           {
             "clients": [],
             "name": "Trash Removal",
             "description": "Daily trash removal to keep your room clean and fresh.",
-            "image": "https://your-api.onrender.com/api/images/trash-removal.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/trash-removal.jpeg"
           },
           {
             "clients": [],
             "name": "Turn-Down Service",
             "description": "Evening refresh with chocolates and neatly folded blankets.",
-            "image": "https://your-api.onrender.com/api/images/turn-down-service.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/turn-down-service.jpeg"
           }
         ]
       },
@@ -43,19 +43,19 @@
             "clients": [],
             "name": "Towel & Bedding Replacement",
             "description": "Get fresh towels and clean bedding upon request.",
-            "image": "https://your-api.onrender.com/api/images/fresh-towel-and-bedding-replacement.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/fresh-towel-and-bedding-replacement.jpeg"
           },
           {
             "clients": [],
             "name": "Guest Laundry",
             "description": "Paid same-day cleaning services available.",
-            "image": "https://your-api.onrender.com/api/images/guest-laundry.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/guest-laundry.jpeg"
           },
           {
             "clients": [],
             "name": "Dry Cleaning & Pressing",
             "description": "Fast and professional cleaning for business travelers.",
-            "image": "https://your-api.onrender.com/api/images/drycleaning-and-pressing.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/drycleaning-and-pressing.jpeg"
           }
         ]
       },
@@ -76,13 +76,13 @@
             ],
             "name": "Bar Restocking",
             "description": "Get your mini-bar restocked with drinks and snacks.",
-            "image": "https://your-api.onrender.com/api/images/minibar-restocking.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/minibar-restocking.jpeg"
           },
           {
             "clients": [],
             "name": "Air Conditioning Adjustments",
             "description": "Adjust room temperature as per your comfort.",
-            "image": "https://your-api.onrender.com/api/images/airconditioning-and-heating-adjustments.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/airconditioning-and-heating-adjustments.jpeg"
           },
           {
             "clients": [
@@ -93,7 +93,7 @@
             ],
             "name": "Lightbulb or Remote Replacement",
             "description": "Request a new lightbulb or remote if needed.",
-            "image": "https://your-api.onrender.com/api/images/lightbulb-or-remote-replacement.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/lightbulb-or-remote-replacement.jpeg"
           },
           {
             "clients": [
@@ -104,7 +104,7 @@
             ],
             "name": "Plumbing & Electricity Fixes",
             "description": "Report and fix plumbing or electricity issues.",
-            "image": "https://your-api.onrender.com/api/images/plumbing-and-elecricity-fixes.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/plumbing-and-elecricity-fixes.jpeg"
           }
         ]
       },
@@ -116,25 +116,25 @@
             "clients": [],
             "name": "Shoe Shining",
             "description": "Get your shoes polished and shined.",
-            "image": "https://your-api.onrender.com/api/images/shoe-shining.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/shoe-shining.jpeg"
           },
           {
             "clients": [],
             "name": "Iron & Ironing Board Delivery",
             "description": "Request an iron and ironing board for your room.",
-            "image": "https://your-api.onrender.com/api/images/ironing-and-ironing-board.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/ironing-and-ironing-board.jpeg"
           },
           {
             "clients": [],
             "name": "Extra Pillows & Blankets",
             "description": "Request additional pillows and blankets for your comfort.",
-            "image": "https://your-api.onrender.com/api/images/extrablankets-and-pillows.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/extrablankets-and-pillows.jpeg"
           },
           {
             "clients": [],
             "name": "Rollaway Bed Setup",
             "description": "Request a crib or extra bed for your stay.",
-            "image": "https://your-api.onrender.com/api/images/crib-rollaway-bed-set-up.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/crib-rollaway-bed-set-up.jpeg"
           }
         ]
       },
@@ -146,19 +146,19 @@
             "clients": [],
             "name": "Flower Arrangements",
             "description": "Special flower arrangements for anniversaries and celebrations.",
-            "image": "https://your-api.onrender.com/api/images/flower-arrangement.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/flower-arrangement.jpeg"
           },
           {
             "clients": [],
             "name": "Romantic Room Decor",
             "description": "Honeymoon packages with romantic room decoration.",
-            "image": "https://your-api.onrender.com/api/images/romantic-room-decor.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/romantic-room-decor.jpeg"
           },
           {
             "clients": [],
             "name": "Pet Care Services",
             "description": "Dog beds, bowls, and other pet care services available.",
-            "image": "https://your-api.onrender.com/api/images/pet-care-services.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/pet-care-services.jpeg"
           }
         ]
       },
@@ -170,19 +170,19 @@
             "clients": [],
             "name": "Disinfection Requests",
             "description": "Post-COVID deep cleaning available upon request.",
-            "image": "https://your-api.onrender.com/api/images/disinfection-requests.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/disinfection-requests.jpeg"
           },
           {
             "clients": [],
             "name": "Allergy-Friendly Room Prep",
             "description": "Hypoallergenic bedding and cleaning for allergy-sensitive guests.",
-            "image": "https://your-api.onrender.com/api/images/allergy-friendly-room-set-up.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/allergy-friendly-room-set-up.jpeg"
           },
           {
             "clients": [],
             "name": "First Aid Kit Delivery",
             "description": "Request a first aid kit for minor injuries.",
-            "image": "https://your-api.onrender.com/api/images/firstaid-kit-delivery.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/firstaid-kit-delivery.jpeg"
           }
         ]
       },
@@ -194,19 +194,19 @@
             "clients": [],
             "name": "Butler Service",
             "description": "Assistance with packing, unpacking, and personal service.",
-            "image": "https://your-api.onrender.com/api/images/butler-service.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/butler-service.jpeg"
           },
           {
             "clients": [],
             "name": "In-Room Dining Setup",
             "description": "Enjoy a private breakfast or meal in your room.",
-            "image": "https://your-api.onrender.com/api/images/in-room-dining-set-up.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/in-room-dining-set-up.jpeg"
           },
           {
             "clients": [],
             "name": "Personalized Fragrance Selection",
             "description": "Choose a luxury fragrance for your room.",
-            "image": "https://your-api.onrender.com/api/images/personalized-fragrance-selction.jpeg"
+            "image": "https://my-app-backend-hvge.onrender.com/api/images/personalized-fragrance-selction.jpeg"
           }
         ]
       }
