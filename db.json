@@ -13,7 +13,7 @@
             ],
             "name": "Room Cleaning",
             "description": "We offer room cleaning services including making beds, vacuuming, and dusting.",
-            "image": "../images/room cleaning.jpeg"
+            "image": "./images/room cleaning.jpeg"
           },
           {
             "clients": [],
