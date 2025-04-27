@@ -10,7 +10,7 @@ server.use(middlewares);
 
 // ✅ Proper CORS Configuration
 server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://kyxs-phase-2-project.vercel.app"); // ✅ Fixed Origin
+  res.header("Access-Control-Allow-Origin", "https://petermunene.github.io"); // ✅ Fixed Origin
   res.header("Access-Control-Allow-Methods", "GET, POST, PATCH, PUT, DELETE, OPTIONS"); // ✅ Allow all methods
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization"); // ✅ Specific headers allowed
   
