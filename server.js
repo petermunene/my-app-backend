@@ -24,7 +24,7 @@ server.use((req, res, next) => {
 // ✅ Use "/api" as the route prefix
 server.use("/api", router);
 
-server.listen(process.env.PORT || 5000, () => {
+server.listen(process.env.PORT || 4000, () => {
   console.log("JSON Server is running on port 5000");
 });
 
